@@ -1,4 +1,4 @@
-# Address division program
+# Address division
 
 A列に各規則性の無い住所データが入ったExcelファイルを読み込み、アパート・マンション名から住所を2つに分けて、再度Excelファイルとして出力するプログラム。<br>
 
