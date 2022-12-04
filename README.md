@@ -1,7 +1,8 @@
 # phpspreadsheet 【address separate program】
 
 A列に各規則性の無い住所データが入ったExcelをアパート・マンション名から2つに分けるプログラム。
-友人から上記の依頼を受けたため作成。友人のPCにPHP環境があったため、https://github.com/kuriken0410/phpspreadsheet/blob/main/address.php のプログラム内に必要事項を記入して使用します。
+友人から上記の依頼を受けたため作成。
+友人のPCにPHP環境があったため、https://github.com/kuriken0410/phpspreadsheet/blob/main/address.php のプログラム内に必要事項を記入して使用します。
 また友人はPHPを含めプログラミングについて知識は無く、今後もプログラミングを学習することはありません。そんな状況の人でも使用できるプログラムとして作成しました。
 
 改善点があればリクエスト欲しいです。
