@@ -149,7 +149,7 @@ if(!empty($new_address)) {
                 unset($new_address[$k][1]);
             }
 
-            // 「丁目」のみ抽出し住所側へ追加、建物側からは削除
+            // 「丁目」のみ抽出し住所側住所へ追加、建物側住所からは削除
             if(preg_match('/丁目/u', $v[1], $matches)) {
                 $new_address[$k][0] = $v[0] . $matches[0];
                 $new_address[$k][1] = str_replace($matches[0], '', $v[1]);
@@ -157,7 +157,7 @@ if(!empty($new_address)) {
         }
     }
 
-    // 建物側の住所から地番や号に当たる箇所を抽出し住所側へ追加、建物側からは削除
+    // 建物側の住所から地番や号に当たる箇所を抽出し住所側住所へ追加、建物側住所からは削除
     foreach($new_address as $k => $v) {
         if(!empty($v[1]) && (preg_match('/(^[\d０-９]{1,5}[―-][\d０-９]{1,5})/u', $v[1], $matches) ||
                              preg_match('/(^[\d０-９]{0,5}番[\d０-９]{1,5}号)/u', $v[1], $matches) ||
@@ -167,6 +167,7 @@ if(!empty($new_address)) {
             $new_address[$k][1] = str_replace($matches[0], '', $v[1]);
         }
     }
+
 
     $newSpreadSheet = new Spreadsheet();
     $newSheet       = $newSpreadSheet->getActiveSheet();
