@@ -14,7 +14,7 @@ A列に各規則性の無い住所データが入ったExcelファイルを読�
 <br>
 
 ## 使用方法 
-プログラムリンク：　https://github.com/kuriken0410/phpspreadsheet/blob/main/address.php
+プログラムリンク：　https://github.com/kuriken0410/address-division/blob/main/division.php
 
 1．プログラム内のTODO EXのログファイルを設定して下さい。
 
