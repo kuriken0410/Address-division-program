@@ -91,8 +91,6 @@ register_shutdown_function(static function() {
 
 /**
  * ログファイル作成と書込
- *
- * @param object $throwable
  */
 function send_error_log($throwable) {
     echo(PHP_EOL . ERROR_MESSAGE);
@@ -204,5 +202,5 @@ if(!empty($new_address)) {
     }
 }
 
-send_error_log((object)'');
+send_error_log('');
 exit;

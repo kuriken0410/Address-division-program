@@ -4,3 +4,20 @@
 住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221204住所分割後.xlsx
 ファイル作成日時：2022-12-04 10:40:03
 
+2022-12-05 06:44:13
+Error: Call to undefined method stdClass::__toString() in /Users/kuriken/phpspreadsheet/address.php:101
+Stack trace:
+#0 /Users/kuriken/phpspreadsheet/address.php(207): send_error_log()
+#1 {main}
+
+2022-12-05 06:45:31
+エラーが発生しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割テスト用.xlsx
+住所分割に失敗し未作成のExcelファイル：/Users/kuriken/phpspreadsheet/20221205住所分割後.xlsx
+
+2022-12-05 06:46:16
+プログラムは正常に完了しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割テスト用.xlsx
+住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221205住所分割後.xlsx
+ファイル作成日時：2022-12-05 06:46:17
+
