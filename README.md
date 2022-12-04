@@ -20,7 +20,7 @@ A列に各規則性の無い住所データが入ったExcelファイルを読�
 2．A列のみに住所データが入ったExcelを用意します。
 > 例： [住所分割テスト用.xlsx](https://github.com/kuriken0410/phpspreadsheet/files/10149315/default.xlsx)
 <br>
-3．プログラム内のTODO①〜④に必要事項を入力してターミナルで実行して下さい。
+3．プログラム内のTODO①〜④に必要事項を入力してターミナルで実行して下さい。<br>
 
 4．住所分割されたExcelファイルが指定したディレクトリに出力されて処理終了。
 > 例： [20221204住所分割後.xlsx](https://github.com/kuriken0410/phpspreadsheet/files/10149508/20221204.xlsx)
