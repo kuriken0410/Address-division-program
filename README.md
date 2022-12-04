@@ -30,7 +30,7 @@ A列に各規則性の無い住所データが入ったExcelファイルを読�
 
 ## 必要環境
 - php環境のあるPC
-- Composerでライブラリ（PhpSpreadsheet）がインストールされている
+- ComposerでライブラリのPhpSpreadsheetがインストール済で使用可能
 
 <br>
 
