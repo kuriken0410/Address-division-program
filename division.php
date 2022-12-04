@@ -49,9 +49,9 @@ define('CREATE_FILE', '/Users/kuriken/phpspreadsheet/' . date('Ymd') . '住所�
 
 /**
  * TODO④: 上記①〜③を終えたらターミナルで実行する
- * 例：このプログラム（address.php）が『/Users/kuriken/phpspreadsheet/address.php』に入っていたら
+ * 例：このプログラム（division.php）が『/Users/kuriken/phpspreadsheet/division.php』に入っていたら
  *   ⇒ ① ターミナルを開き、cdコマンドで『/Users/kuriken/phpspreadsheet/』まで移動
- *   ⇒ ② 移動したら『php address.php』と入力し実行
+ *   ⇒ ② 移動したら『php division.php』と入力し実行
  */
 
 

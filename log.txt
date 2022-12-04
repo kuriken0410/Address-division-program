@@ -21,3 +21,9 @@ Stack trace:
 住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221205住所分割後.xlsx
 ファイル作成日時：2022-12-05 06:46:17
 
+2022-12-05 07:55:50
+プログラムは正常に完了しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割テスト用.xlsx
+住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221205住所分割後.xlsx
+ファイル作成日時：2022-12-05 06:46:17
+
