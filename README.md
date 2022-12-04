@@ -14,8 +14,7 @@ A列に各規則性の無い住所データが入ったExcelをアパート・�
 
 1．プログラム内のTODO EXのログファイルを設定して下さい。（こちらは一度設定すれば、今後変更する必要はありません。）
 
-2．A列のみに住所データが入ったExcelを用意します。<br>
-例： [住所分割テスト用.xlsx](https://github.com/kuriken0410/phpspreadsheet/files/10149315/default.xlsx)
+2．A列のみに住所データが入ったExcelを用意します。例： [住所分割テスト用.xlsx](https://github.com/kuriken0410/phpspreadsheet/files/10149315/default.xlsx)<br>
 
 3．プログラム内のTODO①〜④に必要事項を入力してターミナルで実行して下さい。
 
