@@ -34,7 +34,7 @@ const LOG_FILE = '/Users/kuriken/phpspreadsheet/log.txt';
 
 
 /** TODO①: 以下『READ_FILE』の『''』の中に、住所分割したいExcelファイルのパスを入力かコピペする */
-const READ_FILE = '/Users/kuriken/phpspreadsheet/住所分割テスト用.xlsx';
+const READ_FILE = '/Users/kuriken/phpspreadsheet/住所分割前テストデータ.xlsx';
 
 /**
  * TODO②: Excelに住所分割をしない行があれば、以下『DELETE_EXCEL_NUMBER』の『[]』の中に対象行を入力すると削除される
@@ -45,7 +45,7 @@ const READ_FILE = '/Users/kuriken/phpspreadsheet/住所分割テスト用.xlsx';
 const DELETE_EXCEL_NUMBER = [1,5,6,10];
 
 /** TODO③: 以下『CREATE_FILE』の『'〜.xlsx'』の中に、住所分割完了したデータを入れたExcelファイルの作成先パスとファイル名を入力する */
-define('CREATE_FILE', '/Users/kuriken/phpspreadsheet/' . date('Ymd') . '住所分割後.xlsx');
+define('CREATE_FILE', '/Users/kuriken/phpspreadsheet/' . date('Ymd') . '住所分割後テストデータ.xlsx');
 
 /**
  * TODO④: 上記①〜③を終えたらターミナルで実行する
@@ -159,8 +159,11 @@ if(!empty($new_address)) {
 
     // 建物側の住所から地番や号に当たる箇所を抽出し住所側住所へ追加、建物側住所からは削除
     foreach($new_address as $k => $v) {
-        if(!empty($v[1]) && (preg_match('/(^[\d０-９]{1,5}[―-][\d０-９]{1,5})/u', $v[1], $matches) ||
-                             preg_match('/(^[\d０-９]{0,5}番[\d０-９]{1,5}号)/u', $v[1], $matches) ||
+        if(!empty($v[1]) && (preg_match('/(^[\d０-９]{0,5}番[\d０-９]{1,5}号)/u', $v[1], $matches) ||
+                             preg_match('/(^[\d０-９]{1,5}番[\d０-９]{1,5})/u', $v[1], $matches) ||
+                             preg_match('/(^[\d０-９]{1,5}番)/u', $v[1], $matches) ||
+                             preg_match('/(^[\d０-９]{1,5}[―-][\d０-９]{1,5}号)/u', $v[1], $matches) ||
+                             preg_match('/(^[\d０-９]{1,5}[―-][\d０-９]{1,5})/u', $v[1], $matches) ||
                              preg_match('/(^[\d０-９]{1,5})/u', $v[1], $matches)))
         {
             $new_address[$k][0] = $v[0] . $matches[0];
