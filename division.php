@@ -60,7 +60,7 @@ define('CREATE_FILE', '/Users/kuriken/phpspreadsheet/' . date('Ymd') . '住所�
 // ***************************************** ここから下は触らないで下さい *************************************************
 
 const SUCCESS_MESSAGE = 'プログラムは正常に完了しました';
-const ERROR_MESSAGE   = 'エラーが発生しました';
+const ERROR_MESSAGE   = '不明なエラーが発生しました';
 define('NOW', date('Y-m-d H:i:s'));
 
 // エラーハンドリングここから

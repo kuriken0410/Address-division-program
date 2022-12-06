@@ -1,0 +1,23 @@
+2022-12-07 05:23:55
+プログラムは正常に完了しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割前テストデータ.xlsx
+住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221207住所分割後テストデータ.xlsx
+ファイル作成日時：2022-12-07 05:23:55
+
+2022-12-07 05:53:42
+ArgumentCountError: Too few arguments to function {closure}(), 4 passed and exactly 5 expected in /Users/kuriken/phpspreadsheet/division.php:71
+Stack trace:
+#0 /Users/kuriken/phpspreadsheet/division.php(119): {closure}()
+#1 {main}
+
+2022-12-07 05:55:37
+不明なエラーが発生しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割前テストデータ.xlsx
+住所分割に失敗し未作成のExcelファイル：/Users/kuriken/phpspreadsheet/20221207住所分割後テストデータ.xlsx
+
+2022-12-07 05:56:29
+プログラムは正常に完了しました
+住所分割前Excelファイル：/Users/kuriken/phpspreadsheet/住所分割前テストデータ.xlsx
+住所分割後Excelファイル：/Users/kuriken/phpspreadsheet/20221207住所分割後テストデータ.xlsx
+ファイル作成日時：2022-12-07 05:56:29
+
